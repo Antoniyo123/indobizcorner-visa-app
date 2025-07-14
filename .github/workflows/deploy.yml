@@ -22,7 +22,7 @@ jobs:
 
       - name: Deploy Backend & Frontend
         run: |
-          ssh root@145.79.11.227 << 'EOF'
+            ssh -tt root@145.79.11.227 << 'EOF'
             if [ ! -d "/root/indobizcorner-visa-app/.git" ]; then
               git clone https://github.com/Antoniyo123/indobizcorner-visa-app.git /root/indobizcorner-visa-app
             else
