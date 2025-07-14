@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1751410109445,
+    "name": "Riswanton Ramudin",
+    "email": "riswantonr2015@gmail.com",
+    "phone": "085333256023",
+    "promo": "EXCLUSIVE DISCOUNT FOR EXPRESS VISA",
+    "claimNumber": 1,
+    "createdAt": "2025-07-01T22:48:29.445Z"
+  },
+  {
+    "id": 1751410227581,
+    "name": "Test User",
+    "email": "test@email.com",
+    "phone": "08123456789",
+    "promo": "Test Promo",
+    "claimNumber": 2,
+    "createdAt": "2025-07-01T22:50:27.581Z"
+  },
+  {
+    "id": 1751410242345,
+    "name": "Test User",
+    "email": "test@email.com",
+    "phone": "08123456789",
+    "promo": "Test Promo",
+    "claimNumber": 3,
+    "createdAt": "2025-07-01T22:50:42.345Z"
+  },
+  {
+    "id": 1751410467761,
+    "name": "Riswanton Ramudin",
+    "email": "riswantonr2015@gmail.com",
+    "phone": "085333256023",
+    "promo": "EXCLUSIVE DISCOUNT FOR EXPRESS VISA",
+    "claimNumber": 4,
+    "createdAt": "2025-07-01T22:54:27.761Z"
+  },
+  {
+    "id": 1751410491276,
+    "name": "Riswanton Ramudin",
+    "email": "riswantonr2015@gmail.com",
+    "phone": "085333256023",
+    "promo": "EXCLUSIVE DISCOUNT FOR EXPRESS VISA",
+    "claimNumber": 5,
+    "createdAt": "2025-07-01T22:54:51.276Z"
+  },
+  {
+    "id": 1751410616654,
+    "name": "Alex Jordan",
+    "email": "alex@example.com",
+    "phone": "08123456789",
+    "promo": "TEST PROMO",
+    "claimNumber": 6,
+    "createdAt": "2025-07-01T22:56:56.654Z"
+  },
+  {
+    "id": 1751410821373,
+    "name": "Riswanton Ramudin",
+    "email": "riswantonr2015@gmail.com",
+    "phone": "085333256023",
+    "promo": "EXCLUSIVE DISCOUNT FOR EXPRESS VISA",
+    "claimNumber": 7,
+    "createdAt": "2025-07-01T23:00:21.373Z"
+  },
+  {
+    "id": 1751411250672,
+    "name": "Test User",
+    "email": "test@example.com",
+    "phone": "08123456789",
+    "promo": "BALI TOUR PACKAGE",
+    "claimNumber": 8,
+    "createdAt": "2025-07-01T23:07:30.672Z"
+  },
+  {
+    "id": 1751411898023,
+    "name": "Test User",
+    "email": "test@example.com",
+    "phone": "08123456789",
+    "promo": "BALI TOUR PACKAGE",
+    "claimNumber": 9,
+    "createdAt": "2025-07-01T23:18:18.023Z"
+  },
+  {
+    "id": 1751411942936,
+    "name": "Alex",
+    "email": "alex@example.com",
+    "phone": "08123456789",
+    "promo": "Test Promo",
+    "claimNumber": 10,
+    "createdAt": "2025-07-01T23:19:02.936Z"
+  },
+  {
+    "id": 1751412005339,
+    "name": "Alex",
+    "email": "alex@example.com",
+    "phone": "08123456789",
+    "promo": "Test Promo",
+    "claimNumber": 11,
+    "createdAt": "2025-07-01T23:20:05.339Z"
+  },
+  {
+    "id": 1751412159029,
+    "name": "Alex",
+    "email": "alex@example.com",
+    "phone": "08123456789",
+    "promo": "Test Promo",
+    "claimNumber": 12,
+    "createdAt": "2025-07-01T23:22:39.029Z"
+  }
+]

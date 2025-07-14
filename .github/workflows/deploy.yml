@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - name: Deploy Backend & Frontend
   run: |
     ssh root@145.79.11.227 << 'EOF'
@@ -22,3 +23,69 @@
 
       echo "✅ Deployment selesai!"
     EOF
+=======
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+<<<<<<< HEAD
+      - main
+=======
+      - main  # atau 'master' sesuai repo kamu
+>>>>>>> dce0bc7 (Fix deploy: add auto clone if not exists)
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+<<<<<<< HEAD
+      - name: Checkout Repository
+=======
+      - name: Checkout code
+>>>>>>> dce0bc7 (Fix deploy: add auto clone if not exists)
+        uses: actions/checkout@v3
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+<<<<<<< HEAD
+          ssh-keyscan -H 145.79.11.227 >> ~/.ssh/known_hosts
+
+      - name: Deploy Backend & Frontend
+        run: |
+          ssh root@145.79.11.227 << 'EOF'
+            cd /root/indobizcorner-visa-app
+            git pull origin main
+
+            # DEPLOY BACKEND
+            cd backend
+            npm install
+            pm2 restart backend-app || pm2 start index.js --name backend-app
+            cd ..
+
+            # DEPLOY FRONTEND
+            cd frontend
+            npm install
+            npm run build
+
+            # (Opsional) Copy hasil build ke nginx:
+            # cp -r build/* /var/www/html/
+
+            echo "✅ Deployment selesai!"
+=======
+          ssh-keyscan -H srv894949 >> ~/.ssh/known_hosts
+
+      - name: Deploy backend to VPS
+        run: |
+          ssh root@srv894949 << 'EOF'
+            cd /path/to/your/backend/folder
+            git pull origin main
+            npm install
+            pm2 restart backend-app-name
+>>>>>>> dce0bc7 (Fix deploy: add auto clone if not exists)
+          EOF
+>>>>>>> a4a69fe (Add auto clone logic for deploy)
