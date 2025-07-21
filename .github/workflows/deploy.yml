@@ -41,7 +41,7 @@ jobs:
             echo "🔧 Installing backend dependencies..."
             cd /root/indobizcorner-visa-app/backend
             npm install
-            pm2 restart backend-app || pm2 start index.js --name backend-app
+            pm2 restart backend || pm2 start server.js --name backend
             cd ..
 
             echo "🌐 Building frontend..."
