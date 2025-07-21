@@ -19,10 +19,10 @@ const AboutUs = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Sidharta DharmaWardhana",
+      name: "Sidharta Dharma Wardhana",
       position: "Direktur Utama",
       image: require('../assets/img/pakdarta.png'),
-      bio: "Sarah brings over 8 years of experience in creative direction and brand strategy. She has worked with Fortune 500 companies and startups alike, helping them build compelling visual narratives.",
+      bio: "Sidharta brings over 8 years of experience in creative direction and brand strategy. She has worked with Fortune 500 companies and startups alike, helping them build compelling visual narratives.",
       experience: "8+ years",
       education: "Master's in Visual Design from Art Institute",
       skills: ["Brand Strategy", "Creative Direction", "Visual Identity", "Team Leadership"]
@@ -32,7 +32,7 @@ const AboutUs = () => {
       name: "Ardiansyah Saputra",
       position: "Direktur Operational",
       image: require('../assets/img/pakardi.png'),
-      bio: "Michael is a full-stack developer with expertise in modern web technologies. He leads our development team and ensures all projects meet the highest technical standards.",
+      bio: "Ardy is a full-stack developer with expertise in modern web technologies. He leads our development team and ensures all projects meet the highest technical standards.",
       experience: "6+ years",
       education: "Bachelor's in Computer Science from MIT",
       skills: ["React", "Node.js", "Python", "Cloud Architecture"]
@@ -42,7 +42,7 @@ const AboutUs = () => {
       name: "M. Ferarry Perdhana Wardhana",
       position: "Direktur",
       image: require('../assets/img/ferari.png'),
-      bio: "Emma specializes in user experience design and human-computer interaction. She's passionate about creating intuitive and accessible digital experiences.",
+      bio: "Ferarry specializes in user experience design and human-computer interaction. She's passionate about creating intuitive and accessible digital experiences.",
       experience: "5+ years",
       education: "Master's in HCI from Stanford University",
       skills: ["User Research", "Prototyping", "Interaction Design", "Accessibility"]
@@ -52,7 +52,7 @@ const AboutUs = () => {
       name: "M. Ferial dwi putera",
       position: "Direktur",
       image: require('../assets/img/ferial.png'),
-      bio: "David oversees product strategy and development lifecycle. He bridges the gap between technical teams and business objectives to deliver successful products.",
+      bio: "Ferial oversees product strategy and development lifecycle. He bridges the gap between technical teams and business objectives to deliver successful products.",
       experience: "7+ years",
       education: "MBA from Harvard Business School",
       skills: ["Product Strategy", "Agile Management", "Market Analysis", "Stakeholder Management"]
@@ -62,7 +62,7 @@ const AboutUs = () => {
       name: "Iqbal",
       position: "Human Resources",
       image: require('../assets/img/pakiqbal.png'),
-      bio: "Lisa develops comprehensive brand strategies that resonate with target audiences. She combines market research with creative insights to build strong brand identities.",
+      bio: "Iqbal develops comprehensive brand strategies that resonate with target audiences. She combines market research with creative insights to build strong brand identities.",
       experience: "6+ years",
       education: "Master's in Marketing from Northwestern",
       skills: ["Brand Development", "Market Research", "Content Strategy", "Social Media"]
