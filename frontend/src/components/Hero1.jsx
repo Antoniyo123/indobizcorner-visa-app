@@ -18,7 +18,7 @@ const HeroSection = () => {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
-            <span className="title-yellow">YOUR TRUSTED heavy</span>
+            <span className="title-yellow">YOUR TRUSTED smaleest</span>
             <br />
             <span className="title-white">FOR </span>
             <br />
