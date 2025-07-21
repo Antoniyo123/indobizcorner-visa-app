@@ -21,8 +21,16 @@ jobs:
           ssh-keyscan -H 145.79.11.227 >> ~/.ssh/known_hosts
 
       - name: Deploy Backend & Frontend
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
-          ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no root@145.79.11.227 << 'EOF'
+          eval "$(ssh-agent -a $SSH_AUTH_SOCK)"
+          ssh-add ~/.ssh/id_ed25519
+
+          ssh -o StrictHostKeyChecking=no root@145.79.11.227 << 'EOF'
+            set -e  # Stop on first error
+
+            echo "📦 Pulling latest code..."
             if [ ! -d "/root/indobizcorner-visa-app/.git" ]; then
               git clone https://github.com/Antoniyo123/indobizcorner-visa-app.git /root/indobizcorner-visa-app
             else
@@ -30,13 +38,13 @@ jobs:
               git pull origin main
             fi
 
-            # DEPLOY BACKEND
+            echo "🔧 Installing backend dependencies..."
             cd /root/indobizcorner-visa-app/backend
             npm install
             pm2 restart backend-app || pm2 start index.js --name backend-app
             cd ..
 
-            # DEPLOY FRONTEND
+            echo "🌐 Building frontend..."
             cd frontend
             npm install
             npm run build
