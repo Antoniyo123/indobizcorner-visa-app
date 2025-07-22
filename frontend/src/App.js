@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar1 from './components/Navbar1';
 import Footer from './components/Footer';
@@ -18,10 +19,15 @@ import VisaService from './page/VisaService';
 
 
 function App() {
+useEffect(() => {
+    document.title = "IndoBizCorner v2";
+  }, []);
   return (
     
     <Router>
       <div className="app">
+<h1>Hello from Alex — LIVE</h1>
+
         <Navbar1 />
         <main>
           <Routes>
