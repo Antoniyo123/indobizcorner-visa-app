@@ -19,14 +19,11 @@ import VisaService from './page/VisaService';
 
 
 function App() {
-useEffect(() => {
-    document.title = "IndoBizCorner v2";
-  }, []);
+
   return (
     
     <Router>
       <div className="app">
-<h1>Hello from Alex — LIVE</h1>
 
         <Navbar1 />
         <main>
