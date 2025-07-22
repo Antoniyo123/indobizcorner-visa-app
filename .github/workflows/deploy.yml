@@ -28,21 +28,22 @@ jobs:
           ssh-add ~/.ssh/id_ed25519
 
           ssh -o StrictHostKeyChecking=no root@145.79.11.227 << 'EOF'
-            set -e  # Stop on error
+            set -e
 
-            echo "📦 Pulling latest code..."
+            echo "📦 Cloning or Pulling latest code..."
             if [ ! -d "/root/indobizcorner-visa-app/.git" ]; then
               git clone https://github.com/Antoniyo123/indobizcorner-visa-app.git /root/indobizcorner-visa-app
             else
               cd /root/indobizcorner-visa-app
-              git pull --rebase origin main
+              git fetch origin
+              git reset --hard origin/main
             fi
 
             echo "🔧 Installing backend dependencies..."
             cd /root/indobizcorner-visa-app/backend
             npm install
 
-            echo "🚀 Restarting backend..."
+            echo "🚀 Restarting backend with PM2..."
             pm2 restart backend || pm2 start server.js --name backend
             cd ..
 
@@ -51,9 +52,12 @@ jobs:
             npm install
             npm run build
 
-            echo "🚚 Deploying frontend build to web server..."
+            echo "📂 Copying build to /var/www/html..."
             rm -rf /var/www/html/*
             cp -r build/* /var/www/html/
 
-            echo "✅ Deployment completed!"
+            echo "🔁 Restarting Nginx..."
+            systemctl restart nginx || true
+
+            echo "✅ Deployment selesai!"
           EOF
