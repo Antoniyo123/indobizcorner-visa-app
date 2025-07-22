@@ -20,7 +20,7 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H 145.79.11.227 >> ~/.ssh/known_hosts
 
-      - name: Deploy Backend & Frontend
+      - name: Deploy to VPS
         env:
           SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
@@ -28,7 +28,7 @@ jobs:
           ssh-add ~/.ssh/id_ed25519
 
           ssh -o StrictHostKeyChecking=no root@145.79.11.227 << 'EOF'
-            set -e  # Stop on first error
+            set -e  # Stop on error
 
             echo "📦 Pulling latest code..."
             if [ ! -d "/root/indobizcorner-visa-app/.git" ]; then
@@ -41,6 +41,8 @@ jobs:
             echo "🔧 Installing backend dependencies..."
             cd /root/indobizcorner-visa-app/backend
             npm install
+
+            echo "🚀 Restarting backend..."
             pm2 restart backend || pm2 start server.js --name backend
             cd ..
 
@@ -49,5 +51,9 @@ jobs:
             npm install
             npm run build
 
-            echo "✅ Deployment selesai!"
+            echo "🚚 Deploying frontend build to web server..."
+            rm -rf /var/www/html/*
+            cp -r build/* /var/www/html/
+
+            echo "✅ Deployment completed!"
           EOF
