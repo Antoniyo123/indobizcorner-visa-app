@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
             <div className="contact-item">
               <span className="contact-icon">✉️</span>
-              <a href="mailto:hi@indobizcorner.com" className="contact-link">hi@indobizcorner.com</a>
+              <a href="mailto:hi@indobizcorner.com" className="contact-link">csindobizcorner@gmail.com</a>
             </div>
           </div>
         </div>
@@ -45,7 +45,7 @@ const Footer = () => {
             <li><a href="#services">Services</a></li>
             <li><a href="#success-stories">Success Stories</a></li>
             <li><a href="#discover">Discover</a></li>
-            <li><a href="#care">Care</a></li>
+            <li><a href="#care">Career</a></li>
             {/* <li><a href="#download">Download App</a></li> */}
           </ul>
         </div>
