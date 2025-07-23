@@ -28,7 +28,7 @@ const AboutUs = () => {
     },
     {
       id: 2,
-      name: "Ferarry Perdhana Wardhana",
+      name: "M. Ferarry Perdana Wardhana",
       position: "Director",
       image: require('../assets/img/ferari.png'),
       bio: "Ferarry is a Director focused on technology development and digital innovation. He drives the company’s digital transformation and oversees internal tech systems.",
