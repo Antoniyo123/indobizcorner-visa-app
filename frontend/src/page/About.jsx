@@ -20,64 +20,51 @@ const AboutUs = () => {
     {
       id: 1,
       name: "M. Ferial dwi putera",
-      position: "Direktur Utama",
+      position: "President Director",
       image: require('../assets/img/ferial.png'),
-      bio: "Sidharta brings over 8 years of experience in creative direction and brand strategy. She has worked with Fortune 500 companies and startups alike, helping them build compelling visual narratives.",
+      bio: "As President Director, Ferial leads the company's strategic direction and ensures long-term operational success. With over 8 years of experience, he has managed various cross-sector projects with a visionary and innovative approach.",
       experience: "8+ years",
-      education: "Master's in Visual Design from Art Institute",
-      skills: ["Brand Strategy", "Creative Direction", "Visual Identity", "Team Leadership"]
+      skills: ["Leadership", "Business Strategy", "Project Management", "Communication"]
     },
     {
       id: 2,
       name: "Ferarry Perdhana Wardhana",
-      position: "Direktur",
+      position: "Director",
       image: require('../assets/img/ferari.png'),
-      bio: "Ardy is a full-stack developer with expertise in modern web technologies. He leads our development team and ensures all projects meet the highest technical standards.",
+      bio: "Ferarry is a Director focused on technology development and digital innovation. He drives the company’s digital transformation and oversees internal tech systems.",
       experience: "6+ years",
-      education: "Bachelor's in Computer Science from MIT",
-      skills: ["React", "Node.js", "Python", "Cloud Architecture"]
+      skills: ["IT Management", "System Development", "Digital Transformation", "Cybersecurity"]
     },
     {
       id: 3,
       name: "Sidharta Dharma Wardhana",
-      position: "Direktur",
+      position: "Director",
       image: require('../assets/img/pakdarta.png'),
-      bio: "Ferarry specializes in user experience design and human-computer interaction. She's passionate about creating intuitive and accessible digital experiences.",
+      bio: "Sidharta plays a key role in strategic decision-making and business relationship development. He has strong expertise in human-computer interaction and user experience design.",
       experience: "5+ years",
-      education: "Master's in HCI from Stanford University",
-      skills: ["User Research", "Prototyping", "Interaction Design", "Accessibility"]
+      skills: ["User Experience Design", "User Research", "Innovation Strategy", "Team Management"]
     },
     {
       id: 4,
       name: "Ardiansyah Saputra",
-      position: "Direktur Operational",
+      position: "Operational Director",
       image: require('../assets/img/pakardi.png'),
-      bio: "Ferial oversees product strategy and development lifecycle. He bridges the gap between technical teams and business objectives to deliver successful products.",
+      bio: "Ardiansyah oversees the company’s daily operations, ensuring all business processes run efficiently and align with strategic goals.",
       experience: "7+ years",
-      education: "MBA from Harvard Business School",
-      skills: ["Product Strategy", "Agile Management", "Market Analysis", "Stakeholder Management"]
+      skills: ["Operational Management", "Strategic Planning", "Process Optimization", "Team Supervision"]
     },
     {
       id: 5,
       name: "Iqbal",
       position: "Human Resources",
       image: require('../assets/img/pakiqbal.png'),
-      bio: "Iqbal develops comprehensive brand strategies that resonate with target audiences. She combines market research with creative insights to build strong brand identities.",
+      bio: "Iqbal manages all aspects of human resources within the company. He focuses on talent development, cultivating a healthy work culture, and implementing effective HR policies and procedures.",
       experience: "6+ years",
-      education: "Master's in Marketing from Northwestern",
-      skills: ["Brand Development", "Market Research", "Content Strategy", "Social Media"]
+      skills: ["HR Management", "Recruitment", "Employee Development", "Employee Relations"]
     },
-    // {
-    //   id: 6,
-    //   name: "Alex Miller",
-    //   position: "Full Stack Developer",
-    //   image: require('../assets/img/profile5.jpg'),
-    //   bio: "Alex is skilled in both frontend and backend development. He enjoys solving complex technical challenges and building scalable web applications.",
-    //   experience: "4+ years",
-    //   education: "Bachelor's in Software Engineering",
-    //   skills: ["JavaScript", "React", "Express.js", "Database Design"]
-    // }
   ];
+  
+  
 
   const openModal = (member) => {
     setSelectedMember(member);
