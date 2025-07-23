@@ -32,31 +32,31 @@ const ContactPage = () => {
       id: 1,
       name: "Jakarta Office",
       address: "Ruko Tiara Buncit Blok D12, Jl. Kemang Utara IX, Pancoran, Jakarta Selatan 12760",
-      phone: "+62 21 2271 7665",
+      phone: "+62 8129-2501-293",
       mapUrl: "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d126914.14085573106!2d106.7432838524836!3d-6.2549166825052795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1750233911648!5m2!1sid!2sid",
       googleMapsLink: "https://maps.google.com/?q=Ruko+Tiara+Buncit+Blok+D12+Jl+Kemang+Utara+IX+Pancoran+Jakarta+Selatan"
     },
     {
       id: 2,
-      name: "Surabaya Office",
-      address: "Jl. HR Muhammad No. 123, Gubeng, Surabaya, Jawa Timur 60281",
-      phone: "+62 31 5678 9012",
+      name: "Bekasi Office",
+      address: "Megah Cikarang Center No. 45, Cikarang Selatan Kab. Bekasi 17532 – Jawa Barat",
+      phone: "+62 8129-2501-293 +62 8211-3333-801",
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4!2d112.7520883!3d-7.2897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1600000000000!5m2!1sid!2sid",
       googleMapsLink: "https://maps.google.com/?q=Jl+HR+Muhammad+No+123+Gubeng+Surabaya+Jawa+Timur"
     },
     {
       id: 3,
-      name: "Medan Office", 
-      address: "Jl. Gatot Subroto No. 456, Medan Baru, Medan, Sumatera Utara 20154",
-      phone: "+62 61 3456 7890",
+      name: "Bali Office", 
+      address: "Jl. Yudistira No. 24, Seminyak Kab. Badung 80361 – Bali",
+      phone: "+62 813 3080 3354",
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.1!2d98.6666667!3d3.5833333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1600000000001!5m2!1sid!2sid",
       googleMapsLink: "https://maps.google.com/?q=Jl+Gatot+Subroto+No+456+Medan+Baru+Medan+Sumatera+Utara"
     },
     {
       id: 4,
       name: "Bali Office",
-      address: "Jl. Sunset Road No. 789, Seminyak, Badung, Bali 80361",
-      phone: "+62 361 234 5678",
+      address: "Jl. Hanoman No.56, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571",
+      phone: "+62 813 3080 3354",
       mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.2!2d115.1604!3d-8.6833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1600000000002!5m2!1sid!2sid",
       googleMapsLink: "https://maps.google.com/?q=Jl+Sunset+Road+No+789+Seminyak+Badung+Bali"
     }
