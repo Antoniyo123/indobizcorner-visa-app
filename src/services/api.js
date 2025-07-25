@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL backend
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'indobizcorner.com';
 
 // Create axios instance
 const api = axios.create({
