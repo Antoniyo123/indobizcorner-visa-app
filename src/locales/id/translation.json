@@ -1,0 +1,284 @@
+{
+    "welcome": "Selamat datang di website kami",
+    "description": "Ini adalah deskripsi dalam Bahasa Indonesia.",
+    "hero": {
+      "title1": "LAYANAN TERPERCAYA ANDA",
+      "title2": "UNTUK",
+      "title3": "VISA",
+      "title4": "SERVIS",
+      "description": "Dipercaya ribuan orang untuk pengurusan visa yang cepat dan mudah"
+    },
+    "navbar": {
+      "home": "Beranda",
+      "visaServices": "Layanan Visa",
+      "about": "Tentang Kami",
+      "contact": "Kontak Kami",
+      "news": "Berita",
+      "consultation": "Konsultasi",
+      "consultationNow": "Konsultasi Sekarang",
+      "menu": "Menu",
+      "tagline": "IndoBIZCorner - Mitra Bisnis Anda",
+      "language": "Bahasa"
+    },
+    "workingProcess": {
+        "title": "Bagaimana Indobiz Corner Bekerja",
+        "steps": [
+          {
+            "title": "Konsultasi Gratis",
+            "description": "Tim kami akan memberikan solusi yang disesuaikan dengan kebutuhan visa Anda."
+          },
+          {
+            "title": "Pengumpulan Dokumen",
+            "description": "Unggah data pribadi dan dokumen yang diperlukan. Tim kami akan memastikan semuanya lengkap."
+          },
+          {
+            "title": "Aplikasi dan Verifikasi",
+            "description": "Aplikasi visa Anda akan diajukan oleh tim kami sesuai dengan persyaratan."
+          },
+          {
+            "title": "Visa Selesai dan Siap Digunakan",
+            "description": "Setelah proses selesai, Anda dapat langsung mengunduh visa Anda."
+          }
+        ],
+        "seeMore": "Lihat selengkapnya"
+      },
+      
+      "articles": {
+        "title": "Berita & Pembaruan",
+        "description": "Temukan regulasi visa terbaru, tips perjalanan, dan kabar dari Indobiz Corner di sini.",
+        "list": [
+          {
+            "image": "article1.png",
+            "title": "Cepat, Tegas dan Lugas: Kanim Bekasi Jaring 27 WNA",
+            "date": "13 Des 2024"
+          },
+          {
+            "image": "article2.png",
+            "title": "Anggota DPR Apresiasi Kinerja Imigrasi dalam Kasus Haji Tanpa Visa",
+            "date": "05 Sep 2024"
+          },
+          {
+            "image": "article3.png",
+            "title": "6 WNA Terjaring Razia di Apartemen Kalibata City",
+            "date": "23 Agu 2024"
+          }
+        ]
+      },
+      "testimonial": {
+        "badge": "Apa Kata Mereka Tentang Indobiz Corner",
+        "title": "Cerita nyata dari klien kami yang puas",
+        "testimonials": [
+          {
+            "name": "The Love Gurus",
+            "username": "dilatory_curtains_98",
+            "text": "Kami butuh perpanjangan visa dan mereka menyelesaikannya dengan sangat cepat, bahkan saat libur di tengah proses. Ada gangguan listrik saat kami tiba di bandara dan 2 visa kami tidak muncul di sistem, tapi mereka menangani semuanya dengan profesional. Sangat direkomendasikan!"
+          },
+          {
+            "name": "Sanna Wandtke",
+            "username": "turbulent_unicorn_29",
+            "text": "Saya sangat senang dengan layanan yang diberikan, sangat kompeten. Meskipun saya agak terlambat memperpanjang visa, prosesnya berjalan lancar. Saya terus menerima update melalui WhatsApp. Terima kasih atas layanan Anda!"
+          },
+          {
+            "name": "Shams W.",
+            "username": "nefarious_jellybeans_91",
+            "text": "Tim Indobiz melakukan pekerjaan luar biasa dalam mengurus perpanjangan visa saya saat saya sedang di luar kota. Prosesnya cepat dan tanpa stres. Sangat direkomendasikan!"
+          },
+          {
+            "name": "J. Adam",
+            "username": "pervasive_inker_83",
+            "text": "Saya baru saja memperpanjang visa dan sangat terkesan dengan layanan yang cepat, profesional, dan harga yang kompetitif. Bahkan mereka memberi bonus sambal! 🤩"
+          },
+          {
+            "name": "Louis Jo",
+            "username": "nefarious_shop_47",
+            "text": "Layanan pengurusan paspor di sini sangat cepat. Pelayanannya baik dan dipercaya oleh wisatawan asing. Sangat profesional dan kompeten."
+          }
+        ]
+      },
+        "footer": {
+          "heroTitle": "Pesan Konsultasi Visa GRATIS Anda",
+          "bookAppointment": "Pesan Janji Temu",
+          "contactTitle": "Kontak",
+          "navigate": "Navigasi",
+          "discover": "Temukan",
+          "followUs": "Ikuti Kami",
+          "links": {
+            "services": "Layanan",
+            "successStories": "Cerita Sukses",
+            "discover": "Temukan",
+            "career": "Karier",
+            "latestNews": "Berita Terbaru",
+            "newArrivals": "Pendatang Baru"
+          },
+          "address": {
+            "line1": "Ruko Tiara Buncit Blok D12",
+            "line2": "Jl. Kemang Utara IX, Pancoran",
+            "line3": "Jakarta Selatan 12760"
+          },
+          "privacyPolicy": "Kebijakan Privasi",
+          "termsCondition": "Syarat & Ketentuan",
+          "copyright": "Hak Cipta",
+          "rightsReserved": "Seluruh hak cipta dilindungi. 2024"
+        },
+            "visa": {
+              "heroTitle": "🇮🇩 Layanan Visa ke Indonesia",
+              "heroSubtitle": "Bantuan visa profesional untuk mengunjungi Indonesia - Cepat, andal, dan tanpa ribet",
+              "infoTitle": "📋 Informasi Layanan Visa",
+              "cards": {
+                "success": {
+                  "title": "Tingkat Keberhasilan 98%",
+                  "desc": "Dipercaya oleh ribuan pelancong"
+                },
+                "fast": {
+                  "title": "Proses Cepat",
+                  "desc": "Sebagian besar visa selesai dalam 24-48 jam"
+                },
+                "secure": {
+                  "title": "Aman & Terpercaya",
+                  "desc": "Dokumen Anda aman bersama kami"
+                },
+                "support": {
+                  "title": "Dukungan 24/7",
+                  "desc": "Bantuan kapan pun Anda butuhkan"
+                }
+              },
+              "popularTitle": "🔥 Jenis Visa Paling Populer",
+              "tags": {
+                "tourist": "Visa Turis (B1)",
+                "voa": "Visa Saat Kedatangan",
+                "business": "Visa Bisnis",
+                "transit": "Visa Transit"
+              },
+              "contact": {
+                "title": "💬 Butuh Bantuan?",
+                "desc": "Tim ahli visa kami siap membantu",
+                "button": "📱 Hubungi Kami di WhatsApp"
+              },
+              "results": {
+                "featuredTitle": "✨ Layanan Visa Indonesia Populer",
+                "featuredSubtitle": "Jenis visa paling banyak diminta untuk ke Indonesia",
+                "searching": "Mencari visa terbaik untuk Anda...",
+                "found": "{{count}} Pilihan Visa ke Indonesia Tersedia",
+                "noResultsTitle": "Layanan visa Indonesia tidak ditemukan",
+                "noResultsDesc": "Coba sesuaikan filter pencarian atau hubungi konsultan visa kami untuk bantuan pribadi",
+                "contactBtn": "📞 Hubungi Konsultan Visa"
+              },
+              "filters": {
+                "from": "🌍 Dari: {{country}}",
+                "type": "📋 Jenis: {{type}}",
+                "query": "🔍 \"{{query}}\""
+              }
+            },
+            
+                "aboutUs": {
+                  "hero": {
+                    "title": "Tentang Perusahaan Kami.",
+                    "description": "Kami didirikan sejak tahun 2012 dengan pengalaman sejak 2002 sebagai pekerja lepas di bidang investasi dan imigrasi.",
+                    "scroll": "Gulir"
+                  },
+                  "mission": {
+                    "description": "Perusahaan bergerak di bidang konsultan bisnis, imigrasi, konsultan lingkungan dan air, penempatan tenaga kerja, biro jasa dokumen, dan distributor alat kesehatan."
+                  },
+                  "vision": {
+                    "description": "Kami juga mengelola lembaga pelatihan kerja untuk penempatan kerja di kapal pesiar dan bekerja sama dengan beberapa perguruan tinggi di Kanada. Dengan pengalaman dan keahlian yang kami miliki, serta hubungan yang baik dengan instansi pemerintah terkait dan pemerintah daerah, kami menjadi pelopor dan dipercaya untuk menyelesaikan setiap tugas dan kasus dengan cepat dan tepat, sesuatu yang tidak dapat dilakukan oleh pesaing kami."
+                  },
+                  "team": {
+                    "title": "Kenali Tim Kami",
+                    "description": "Tim profesional yang berkomitmen untuk membuat proses visa dan bisnis Anda bebas stres.",
+                    "viewDetails": "Lihat Detail",
+                    "experience": "Pengalaman",
+                    "about": "Tentang",
+                    "education": "Pendidikan",
+                    "skills": "Keahlian & Kompetensi"
+                  },
+                  "members": {
+                    "ferial": {
+                      "bio": "Sebagai Presiden Direktur, Ferial memimpin arah strategis perusahaan dan memastikan keberhasilan operasional jangka panjang. Dengan lebih dari 8 tahun pengalaman, ia telah mengelola berbagai proyek lintas sektor dengan pendekatan visioner dan inovatif.",
+                      "skills": ["Kepemimpinan", "Strategi Bisnis", "Manajemen Proyek", "Komunikasi"]
+                    },
+                    "ferarry": {
+                      "bio": "Ferarry adalah Direktur yang fokus pada pengembangan teknologi dan inovasi digital. Ia mendorong transformasi digital perusahaan dan mengawasi sistem teknologi internal.",
+                      "skills": ["Manajemen TI", "Pengembangan Sistem", "Transformasi Digital", "Keamanan Siber"]
+                    },
+                    "sidharta": {
+                      "bio": "Sidharta berperan penting dalam pengambilan keputusan strategis dan pengembangan hubungan bisnis. Ia memiliki keahlian kuat dalam interaksi manusia-komputer dan desain pengalaman pengguna.",
+                      "skills": ["Desain UX", "Riset Pengguna", "Strategi Inovasi", "Manajemen Tim"]
+                    },
+                    "ardiansyah": {
+                      "bio": "Ardiansyah mengawasi operasi harian perusahaan, memastikan semua proses bisnis berjalan efisien dan sejalan dengan tujuan strategis.",
+                      "skills": ["Manajemen Operasional", "Perencanaan Strategis", "Optimalisasi Proses", "Supervisi Tim"]
+                    },
+                    "iqbal": {
+                      "bio": "Iqbal mengelola semua aspek sumber daya manusia di perusahaan. Ia fokus pada pengembangan talenta, budaya kerja yang sehat, dan implementasi kebijakan HR yang efektif.",
+                      "skills": ["Manajemen SDM", "Rekrutmen", "Pengembangan Karyawan", "Hubungan Karyawan"]
+                    }
+                  }
+                  
+                },
+                    "contact": {
+                      "form": {
+                        "title": "Mulai Perjalanan Visa Anda",
+                        "description": "Punya pertanyaan atau butuh bantuan mengenai visa? Kirimkan detail Anda, dan tim kami akan mengurus sisanya.",
+                        "name": "Nama",
+                        "email": "Email",
+                        "message": "Pesan",
+                        "send": "Kirim"
+                      },
+                      "info": {
+                        "emailTitle": "Alamat Email",
+                        "supportTitle": "Pusat Bantuan",
+                        "supportDesc": "Dukungan Pelanggan 24/7",
+                        "supportNote": "Obrolan Langsung Tersedia"
+                      },
+                      "map": {
+                        "mainOffice": "Kantor Pusat - Jakarta"
+                      },
+                      "alert": {
+                        "success": "Terima kasih atas pesan Anda! Kami akan segera menghubungi Anda.",
+                        "error": "Terjadi kesalahan. Silakan coba lagi nanti.",
+                        "emptyFields": "Silakan lengkapi semua kolom."
+                      }
+                    },
+                    
+                        "consultation": {
+                          "heading": {
+                            "part1": "Layanan visa profesional membantu mengurangi ",
+                            "part2": "kerumitan dalam ",
+                            "part3": "kepatuhan visa."
+                          },
+                          "description": "Layanan konsultasi visa kami memberikan panduan ahli untuk semua kebutuhan visa Anda. Mulai dari bantuan aplikasi hingga persiapan dokumen, kami menyederhanakan proses visa yang rumit.",
+                          "subtitle": "Dapatkan bantuan personal sekarang. Kedengarannya terlalu bagus untuk menjadi kenyataan - temukan alasannya.",
+                          "talkButton": "Bicara dengan konsultan",
+                          "form": {
+                            "title": {
+                              "part1": "Jadwalkan panggilan 20 menit",
+                              "part2": "penemuan"
+                            },
+                            "firstName": "Nama depan",
+                            "lastName": "Nama belakang",
+                            "email": "Email",
+                            "phone": "Telepon",
+                            "company": "Perusahaan",
+                            "jobTitle": "Jabatan",
+                            "country": "Negara",
+                            "otherCountry": "Lainnya",
+                            "message": "Pesan Anda",
+                            "submit": "Jadwalkan panggilan"
+                          },
+                          "modal": {
+                            "title": "Permintaan Berhasil Dikirim!",
+                            "body": "Terima kasih atas permintaan konsultasi Anda. Tim kami akan menghubungi Anda dalam 24 jam untuk menjadwalkan panggilan penemuan."
+                          },
+                          "alert": {
+                            "error": "Terjadi kesalahan. Silakan coba lagi nanti."
+                          }
+                        }
+                      
+                      
+                  
+                  
+
+                
+      
+  }
+  

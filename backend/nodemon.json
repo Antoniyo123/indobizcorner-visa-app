@@ -1,5 +1,0 @@
-{
-    "watch": ["server.js", "src"],
-    "ignore": ["backend/data/promoClaims.json"]
-  }
-  

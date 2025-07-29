@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Base URL backend
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'indobizcorner.com';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://indobizcorner.com';
+
 
 // Create axios instance
 const api = axios.create({

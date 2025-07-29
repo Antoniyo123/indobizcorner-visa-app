@@ -1,8 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next'; // ← Tambahkan ini
 import '../styles/Hero1.css';
-import heroVideo from '../assets/video/Video Slider Dummy 1.mp4'; // import video
+import heroVideo from '../assets/video/Video Slider Dummy 1.mp4';
 
 const HeroSection = () => {
+  const { t } = useTranslation(); // ← Gunakan hook i18n
+
   return (
     <section className="hero">
       {/* Video background */}
@@ -18,17 +21,17 @@ const HeroSection = () => {
       <div className="hero-content">
         <div className="hero-text">
           <h1 className="hero-title">
-            <span className="title-yellow">YOUR TRUSTED MANAGED</span>
+            <span className="title-yellow">{t('hero.title1')}</span>
             <br />
-            <span className="title-white">FOR </span>
+            <span className="title-white">{t('hero.title2')}</span>
             <br />
-            <span className="title-white">VISA</span>
+            <span className="title-white">{t('hero.title3')}</span>
             <br />
-            <span className="title-white">SERVICES</span>
+            <span className="title-white">{t('hero.title4')}</span>
           </h1>
 
           <p className="hero-description">
-          Trusted by thousands for fast and seamless visa processing
+            {t('hero.description')}
           </p>
         </div>
       </div>

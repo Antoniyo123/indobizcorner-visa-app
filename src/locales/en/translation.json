@@ -1,0 +1,234 @@
+{
+    "welcome": "Welcome to our website",
+    "description": "This is an English description.",
+    "hero": {
+      "title1": "YOUR TRUSTED MANAGED",
+      "title2": "FOR",
+      "title3": "VISA",
+      "title4": "SERVICES",
+      "description": "Trusted by thousands for fast and seamless visa processing"
+    },
+    "navbar": {
+      "home": "Home",
+      "visaServices": "Visa Services",
+      "about": "About Us",
+      "contact": "Contact Us",
+      "news": "News",
+      "consultation": "Consultation",
+      "consultationNow": "Consult Now",
+      "menu": "Menu",
+      "tagline": "IndoBIZCorner - Your Business Partner",
+      "language": "Language"
+    },
+    
+    "workingProcess": {
+        "title": "How Indobiz Corner Works",
+        "steps": [
+        {
+            "title": "Free Consultation",
+            "description": "Our team will provide tailored solutions to meet your visa needs."
+        },
+        {
+            "title": "Document Submission",
+            "description": "Upload your personal details and required documents. Our team will ensure everything is complete."
+        },
+        {
+            "title": "Application and Verification",
+            "description": "Your visa application will be submitted by our team in accordance with the requirements."
+        },
+        {
+            "title": "Visa Completion and Ready to Use",
+            "description": "Once the process is finished, you can download your visa immediately."
+        }
+        ],
+        "seeMore": "See more"
+    },
+
+    "articles": {
+        "title": "News & Updates",
+        "description": "Discover the latest visa regulations, travel tips, and Indobiz Corner updates here.",
+        "list": [
+          {
+            "image": "article1.png",
+            "title": "Fast and Firm: Bekasi Immigration Nabs 27 Foreigners",
+            "date": "13 Dec 2024"
+          },
+          {
+            "image": "article2.png",
+            "title": "Parliament Appreciates Immigration Performance on Unauthorized Hajj",
+            "date": "05 Sep 2024"
+          },
+          {
+            "image": "article3.png",
+            "title": "6 Foreigners Caught in Kalibata City Apartment Raid",
+            "date": "23 Aug 2024"
+          }
+        ]
+      },
+      "testimonial": {
+        "badge": "What They Said About Indobiz Corner",
+        "title": "Real stories from our happy clients",
+        "testimonials": [
+          {
+            "name": "The Love Gurus",
+            "username": "dilatory_curtains_98",
+            "text": "We needed our visas extended and they did it so quickly, even with a holiday in the middle they got everything sorted in a matter of days. There had been a power outage when we got into the airport and 2 of our visas were not coming up in the system and they dealt with all of it swiftly and professionally. Highly recommend using them over trying to do things yourself. All we did was show up and give them our papers and it was all taken care of."
+          },
+          {
+            "name": "Sanna Wandtke",
+            "username": "turbulent_unicorn_29",
+            "text": "I am really happy with the service provided here, very competent. Because I was a little bit late to extend my visa, it was more complicated, but I got regular whatsapp messages from the nice lady who helped me, to update me about my status. It went all really smoothly. Thanks you for your service!"
+          },
+          {
+            "name": "Shams W.",
+            "username": "nefarious_jellybeans_91",
+            "text": "The indobiz team did a fantastic job sorting my visa extension whilst I was away. They took the stress and hassle out for me and processed the visa promptly. Highly recommended!"
+          },
+          {
+            "name": "J. Adam",
+            "username": "pervasive_inker_83",
+            "text": "I recently extended my visa on arrival, and I was extremely impressed with the service. The staff was highly professional, and the process was both fast and efficient. Additionally, their prices are very competitive. I highly recommend their services. As a thoughtful extra, they even provided condiments, which was a nice touch."
+          },
+          {
+            "name": "Louis Jo",
+            "username": "nefarious_shop_47",
+            "text": "The passport processing service at Visa is very fast. The service here is good and is trusted by foreign tourists. The response given here is very competent and professional. Can handle passport extensions well and be given direction when doing so"
+          }
+        ]
+      },
+      
+        "footer": {
+          "heroTitle": "Book Your FREE Visa Consultation",
+          "bookAppointment": "Book Appointment",
+          "contactTitle": "Contact",
+          "navigate": "Navigate",
+          "discover": "Discover",
+          "followUs": "Follow Us",
+          "links": {
+            "services": "Services",
+            "successStories": "Success Stories",
+            "discover": "Discover",
+            "career": "Career",
+            "latestNews": "Latest News",
+            "newArrivals": "New Arrivals"
+          },
+          "address": {
+            "line1": "Ruko Tiara Buncit Blok D12",
+            "line2": "Jl. Kemang Utara IX, Pancoran",
+            "line3": "South Jakarta 12760"
+          },
+          "privacyPolicy": "Privacy & Policy",
+          "termsCondition": "Terms & Condition",
+          "copyright": "Copyright",
+          "rightsReserved": "All rights reserved. 2024"
+        },
+          
+      
+        "aboutUs": {
+            "hero": {
+              "title": "About our Company.",
+              "description": "We are established since 2012 with experience from 2002 as a freelance worker in the field of investment and immigration.",
+              "scroll": "Scroll"
+            },
+            "mission": {
+              "description": "The company is engaged in business consultants, immigration, environmental and water consultants, labor placement, document service bureaus, and medical equipment distributors."
+            },
+            "vision": {
+              "description": "We also manage job training institutions for work placement on cruise ships and work with several colleges in Canada. With a wealth of experience and expertise that we have, good relationships with relevant government agencies and local governments make us pioneers and trusted to complete every task and various cases quickly and precisely, which our competitors cannot accomplish."
+            },
+            "team": {
+              "title": "Meet Our Team",
+              "description": "A team of professionals committed to making your visa and business processes stress-free.",
+              "viewDetails": "View Details",
+              "experience": "Experience",
+              "about": "About",
+              "education": "Education",
+              "skills": "Skills & Expertise"
+            },
+            "members": {
+                "ferial": {
+                  "bio": "As President Director, Ferial leads the company's strategic direction and ensures long-term operational success. With over 8 years of experience, he has managed various cross-sector projects with a visionary and innovative approach.",
+                  "skills": ["Leadership", "Business Strategy", "Project Management", "Communication"]
+                },
+                "ferarry": {
+                  "bio": "Ferarry is a Director focused on technology development and digital innovation. He drives the company’s digital transformation and oversees internal tech systems.",
+                  "skills": ["IT Management", "System Development", "Digital Transformation", "Cybersecurity"]
+                },
+                "sidharta": {
+                  "bio": "Sidharta plays a key role in strategic decision-making and business relationship development. He has strong expertise in human-computer interaction and user experience design.",
+                  "skills": ["User Experience Design", "User Research", "Innovation Strategy", "Team Management"]
+                },
+                "ardiansyah": {
+                  "bio": "Ardiansyah oversees the company’s daily operations, ensuring all business processes run efficiently and align with strategic goals.",
+                  "skills": ["Operational Management", "Strategic Planning", "Process Optimization", "Team Supervision"]
+                },
+                "iqbal": {
+                  "bio": "Iqbal manages all aspects of human resources within the company. He focuses on talent development, cultivating a healthy work culture, and implementing effective HR policies and procedures.",
+                  "skills": ["HR Management", "Recruitment", "Employee Development", "Employee Relations"]
+                }
+              }
+              
+          },
+            "contact": {
+              "form": {
+                "title": "Get Started on Your Visa Journey",
+                "description": "Have questions or need help about visa? Send us your details, and our team will handle the rest.",
+                "name": "Name",
+                "email": "Email",
+                "message": "Message",
+                "send": "Send"
+              },
+              "info": {
+                "emailTitle": "Email Address",
+                "supportTitle": "Support Center",
+                "supportDesc": "24/7 Customer Support",
+                "supportNote": "Live Chat Available"
+              },
+              "map": {
+                "mainOffice": "Main Office - Jakarta"
+              },
+              "alert": {
+                "success": "Thank you for your message! We will get back to you soon.",
+                "error": "Something went wrong. Please try again later.",
+                "emptyFields": "Please fill in all fields."
+              }
+            },
+                "consultation": {
+                  "heading": {
+                    "part1": "Professional visa services take the ",
+                    "part2": "headache out of ",
+                    "part3": "visa compliance."
+                  },
+                  "description": "Our comprehensive visa consultation service provides expert guidance for all your visa requirements. From application assistance to document preparation, we simplify the complex visa process.",
+                  "subtitle": "Get personalized assistance today. It sounds too good to be true - discover why it's not.",
+                  "talkButton": "Talk to consultant",
+                  "form": {
+                    "title": {
+                      "part1": "Book a 20 minutes",
+                      "part2": "discovery call"
+                    },
+                    "firstName": "First name",
+                    "lastName": "Last name",
+                    "email": "Email",
+                    "phone": "Phone",
+                    "company": "Company",
+                    "jobTitle": "Job title",
+                    "country": "Country",
+                    "otherCountry": "Other",
+                    "message": "Your message",
+                    "submit": "Book a call"
+                  },
+                  "modal": {
+                    "title": "Request Submitted Successfully!",
+                    "body": "Thank you for your consultation request. Our team will contact you within 24 hours to schedule your discovery call."
+                  },
+                  "alert": {
+                    "error": "Something went wrong. Please try again later."
+                  }
+                }
+              
+              
+          
+          
+  }
+  
